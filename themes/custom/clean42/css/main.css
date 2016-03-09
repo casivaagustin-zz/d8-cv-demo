@@ -1,0 +1,141 @@
+body {
+    font-family: 'Lato', sans-serif;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #F76738;
+}
+
+body.path-node h2.node__title a {
+    text-decoration: none;
+    color: #F76738;
+    font-family: oswald;
+}
+
+body.path-node  h2.node__title {
+    margin-left: 120px;
+    margin-bottom: 7px;
+}
+
+.field__label {
+    font-family: 'Oswald', sans-serif;
+    color: #F76738;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+span.field.field--name-title.field--type-string.field--label-hidden.quickedit-field {
+    font-family: 'Oswald', sans-serif;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.field__item {
+    margin-bottom: 8px;
+}
+
+body.path-node .field.field--name-field-profile.field--type-string-long.field--label-hidden.field__item {
+    margin-left: 120px;
+    margin-bottom: 64px;
+    color: #666;
+    font-style: italic;
+}
+
+.node__content.clearfix {
+    position: relative;
+}
+
+body.path-node  .field.field--name-field-picture.field--type-image.field--label-hidden.field__item {
+    position: absolute;
+    top: 0;
+}
+
+body.path-node .field.field--name-field-profile.field--type-string-long.field--label-hidden.field__item {
+    margin-left: 120px;
+    margin-bottom: 64px;
+    color: #666;
+    font-style: italic;
+}
+
+body.path-node .field.field--name-field-skills.field--type-entity-reference.field--label-above .field__items .field__item {
+    display: list-item;
+    margin-left: 30px;
+    width: 168px;
+    float: left;
+}
+
+.field.field--name-field-education.field--type-string-long.field--label-above {
+    clear: both;
+    padding-top: 20px;
+}
+
+article.node--type-work-experience {
+
+}
+
+article.node--type-work-experience h2 {
+
+}
+
+article.node--type-work-experience h2 a {
+    font-family: Oswald;
+    color: #444;
+}
+
+article.node--type-project {
+    margin-left: 20px;
+}
+
+article.node--type-project h2 a {
+    font-size: 18px;
+
+}
+
+article.node--type-project .field.field--name-field-links.field--type-link.field--label-above .field__label {
+    font-size: 14px;
+    color: #444;
+}
+
+body.path-node .field.field--name-field-date-range.field--type-string-long.field--label-hidden.field__item {
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+body.path-node .field.field--name-field-position.field--type-string-long.field--label-visually_hidden {
+    font-size: 13px;
+}
+
+article.contextual-region.node.node--type-project.node--view-mode-default {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 130px;
+    float: right;
+}
+
+article.contextual-region.node.node--type-cv.node--promoted.node--view-mode-teaser.clearfix {
+    width: 300px;
+    text-align: center;
+    float: left;
+}
+
+.feed-icons {
+    clear: both;
+}
+
+.site-name {
+    font-size: 37px;
+    margin: 20px;
+    font-family: oswald;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,7 @@
+name: clean42
+type: theme
+description: 'Demo Theme.'
+core: 8.x
+base theme: classy
+libraries:
+  - clean42/global-styling

@@ -1,0 +1,9 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/main.css: {}
+      //fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext: { type: external }
+      //fonts.googleapis.com/css?family=Oswald: { type: external }
+  js:
+    js/main.js: {}
